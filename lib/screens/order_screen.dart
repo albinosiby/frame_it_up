@@ -73,7 +73,7 @@ class _OrderScreenState extends State<OrderScreen> {
                             labelStyle: TextStyle(
                                 color: selectedSize == entry.key
                                     ? Colors.white
-                                    : Colors.black,
+                                    : Colors.white,
                                 fontSize: 14.sp),
                             onSelected: (selected) {
                               setState(() {
